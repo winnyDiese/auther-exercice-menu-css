@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #287265;
+    height: 80px;
+    margin: 10px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul li a{
+    color: #fff;
+    letter-spacing: 0.1rem;
+}
+
+ul li a:hover{
+    color: #ffd358;
+    text-decoration: underline;
+}
+
+.menu li{
+    float: left;
+    padding: 35px;
+}
+
+.menu li a{
+    text-decoration: none;
+}
+
+form{
+    padding: 35px;
+    text-align: right;
+}
+
+input{
+    font-size: 17px;
+}
